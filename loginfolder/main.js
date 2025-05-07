@@ -10,7 +10,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     // store session info
     sessionStorage.setItem('currentUser', username);
     alert('Login successful!');
-    window.location.href = 'index.html';
+    window.location.href = '/mainfolder/main.html';
   } else {
     alert('Incorrect username or password!');
   }
